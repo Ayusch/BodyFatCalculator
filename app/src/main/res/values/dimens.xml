@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="text_large">26sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="gender_selector_button_height">40dp</dimen>
+</resources>
