@@ -29,5 +29,8 @@ jobs:
       - store_test_results:
           path: app/build/test-results
       - run:
-          name: Building APK
-          command: ./gradlew assembleDebug
+          name: Initial build
+          command: ./gradlew clean assembleRelease --no-daemon --stacktrace
+      - store_artifacts:
+          path: app/build/outputs/apk
+          destination: apks/
